@@ -1,3 +1,4 @@
+import collections
 class Solution:
     def isValidSudoku(self, board: list[list[str]]) -> bool:
         cols = collections.defaultdict(set)
