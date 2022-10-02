@@ -16,4 +16,4 @@ def fibD(n, memo={}):
     memo[n] = fibD(n - 1, memo) + fibD(n - 2, memo)
     return memo[n]
 
-print(fibD(999))
+print(fibD(0))
